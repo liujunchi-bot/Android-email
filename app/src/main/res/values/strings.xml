@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeMail</string>
+    <string name="title_activity_send_mail_to_friend">SendMailToFriend</string>
+    <string name="title_activity_set_friend">SetFriendActivity</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JumpActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="欢迎你"
+            android:gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_nickname"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="修改昵称"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn_parameters"
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="用户管理"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_send_mail"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="代理邮件"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_send_mail2"
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="发送邮件"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_read_mail"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="发件箱"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_read_inner_mail"
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="收件箱"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_get_black_list"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="黑名单"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_black_list"
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="加入黑名单"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_friend"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="通讯录"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_set_friend"
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_padding"
+                android:text="增删好友"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

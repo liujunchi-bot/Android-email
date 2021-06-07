@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMail2Activity">
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#fff"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="150dp"-->
+            <!--android:gravity="center">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:text="收件人："/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="20dp">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/to"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#fff"-->
+                    <!--android:textSize="13dp"-->
+                    <!--android:hint="请输入收件人邮箱号"/>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:gravity="center">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:text="主题："/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="20dp">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/subject"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#fff"-->
+                    <!--android:textSize="13dp"-->
+                    <!--android:hint="请输入主题"/>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:gravity="center">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:text="内容："/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="20dp">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/content"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#fff"-->
+                    <!--android:textSize="13dp"-->
+                    <!--android:hint="请输入主题"/>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@drawable/btn_padding"-->
+            <!--android:text="发送"-->
+            <!--style="?android:attr/borderlessButtonStyle"-->
+            <!--android:gravity="center"/>-->
+
+
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To"
+            />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="content"-->
+            <!--android:textSize="20dp"/>-->
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="Content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_quit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="发送"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
